@@ -54,11 +54,12 @@ html, body {
 	margin-left: -148px;
 	width: 600px;
 	height: 20px;
-	font-size: 19px;
+	font-size: 20px;
 	margin-bottom: 172px;
 	color: #777777;
 	letter-spacing: 2px;
 	text-align: justify;
+	font-family: 'Neuton', serif;
 }
 .links {
 	float: right;
@@ -102,16 +103,28 @@ html, body {
 a {
 	text-decoration: none;
 }
+a:visited {
+	color:blue;
+}
+#about:hover {
+	background-color: yellow;
+}
+#portfolio:hover {
+	background-color: pink;
+}
+#contact:hover {
+	background-color: purple;
+}
 img {
 	margin-top: 10px;
 }
 footer {
  	text-align: center;
-	margin-left: 2px;
+	margin-left: 0px;
 	background-color: #666;
 	position: absolute;
-	padding-left: 850px;
-	padding-right: 849px;
+	padding-left: 851px;
+	padding-right: 851px;
 	padding-top: 37px;
 	padding-bottom: 21px;
 	border-top-style: solid;
@@ -119,12 +132,13 @@ footer {
 	border-top-color: #68d6b3;
 	margin-top: 759px;
 	color: #cfcfcf;
+	white-space: nowrap;
 	
 }
 .connect {
 	float: right;
 	background-color: white;
-	margin-top: -382px;
+	margin-top: -375px;
 	margin-right: -336px;
 	padding: 29px;
 	padding-top: 0px; 
@@ -201,31 +215,37 @@ h4 {
 	color: #68d6b3;
 	line-height: 2.0;
 	margin-right: 5px;
-	font-size: 24px;
+	font-size: 29px;
 }
 h3 {
 	color: #777777;
-	margin-left: -143px;
+	margin-left: -145px;
 	margin-top: 14px;
-	font-size: 18px;
+	font-size: 22px;
+	font-family: 'Special Elite', cursive;
 }
 .email {
 	color: #777777;
-	margin-left: -601px;
-	margin-top: 20px;
-	margin-bottom: 3px;
-	font-size: 18px;
+	margin-left: -520px;
+	margin-top: 15px;
+	margin-bottom: 0px;
+	font-size: 22px;
+	font-family: 'Special Elite', cursive;
 }
 .message {
 	color: #777777;
-	margin-left: -143px;
-	font-size: 18px;
-	margin-top: 16px;
+	margin-left: -145px;
+	font-size: 22px;
+	margin-top: 15px;
+	font-family: 'Special Elite', cursive;
 }
-textarea {
+.text {
 	width: 452px;
+	height: 41px;
 	margin-left: -145px;
 	margin-top: 6px;
+	font-size:20px;
+	font-family: 'Chewy', cursive;
 }
 .messagebox {
 	width: 450px;
@@ -233,12 +253,15 @@ textarea {
 	margin-left: -142px;
 	margin-bottom: 44px;
 	margin-top: 12px;
+	font-size: 22px;
+	font-family: 'Chewy', cursive;
+
 }
 .connect2 {
 	float: right;
 	background-color: white;
-	margin-top: -522px;
-	margin-right: -276px;
+	margin-top: -536px;
+	margin-right: -338px;
 	padding: 1px;
 	padding-top: 5px; 
 	padding-right:23px;
@@ -247,11 +270,11 @@ textarea {
 }
 .footer2 {
   	text-align: center;
-	margin-left: 2px;
+	margin-left: 0px;
 	background-color: #666;
 	position: absolute;
-	padding-left: 850px;
-	padding-right: 849px;
+	padding-left: 851px;
+	padding-right: 851px;
 	padding-top: 37px;
 	padding-bottom: 21px;
 	border-top-style: solid;
@@ -259,46 +282,61 @@ textarea {
 	border-top-color: #68d6b3;
 	margin-top: 759px;
 	color: #cfcfcf;
+	white-space: nowrap;
 }
-#submit {
+.submitt {
     color: white;
     background-color: #68d6b3;
-    margin-left: -454px;
+    margin-left: -145px;
     padding-left: 22px;
     padding-right: 22px;
     padding-top: 10px;
     padding-bottom: 10px;
     font-size: 18px;
     margin-right: 410px;
+    position: absolute;
+    margin-top: -30px;
+}
+.reset {
+	color: white;
+    background-color: #68d6b3;
+    margin-left: -45px;
+    padding-left: 22px;
+    padding-right: 22px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 18px;
+    position: absolute;
+    margin-top: -30px;
 }
 .two3 {
 	float: left;
 	margin-top: -100px;
 	margin-left: 71px;
+	padding-right: 75px;
+	padding-left:3px;
+	padding-bottom: 3px;
+	padding-top: 16px;
 }
 .three3 {
 	background-color: white;
 	margin-top: 146px;
-	margin-bottom: -252px;
+	margin-bottom: -229px;
 	margin-left: 184px;
-	padding-left: 184px;
-	padding-right: 74px;
-	padding-bottom: 48px;
+	padding-left: 192px;
+	padding-right: 298px;
+	padding-bottom: 271px;
 }
 .three5{
 	background-color: white;
 	margin-top: 268px;
-	margin-bottom: -252px;
-	margin-right: -168px;
-	padding-left: 184px;
-	padding-right: 38px;
 }
 .portfolioword {
 	margin-bottom: -5px;
-	padding-top: 2px;
+	padding-top: 7px;
 	padding-bottom: 2px;
 	margin-left: -149px;
-	margin-right: -33px;
+	margin-right: -256px;
 	border-bottom-style: groove;
 	border-bottom-color: #DDD;
 	border-bottom-width: 1px;
@@ -310,8 +348,8 @@ textarea {
 .connect3 {
 	float: right;
 	background-color: white;
-	margin-top: -522px;
-	margin-right: -276px;
+	margin-top: -643px;
+	margin-right: -437px;
 	padding: 1px;
 	padding-top: 5px; 
 	padding-right:23px;
@@ -320,11 +358,11 @@ textarea {
 }
 .footer3 {
   	text-align: center;
-	margin-left: 2px;
+	margin-left: 0px;
 	background-color: #666;
 	position: absolute;
-	padding-left: 850px;
-	padding-right: 849px;
+	padding-left: 851px;
+	padding-right: 851px;
 	padding-top: 37px;
 	padding-bottom: 21px;
 	border-top-style: solid;
@@ -332,19 +370,18 @@ textarea {
 	border-top-color: #68d6b3;
 	margin-top: 759px;
 	color: #cfcfcf;
+	white-space: nowrap;
 }
 #hangman {
 	margin-left: -151px;
-	margin-top:8px;
+	margin-top:17px;
 }
 #hangmantag {
     color: white;
     background-color: #68d6b3;
     position: absolute;
-    margin-left: -200px;
     padding: 4px;
-    margin-top: 101px;
-    margin-bottom: -29px;
+    margin-top: -54px;
     padding-left: 63px;
     padding-right:63px;
     padding-top: 8px;
@@ -353,17 +390,15 @@ textarea {
 }
 #trivia {
 	margin-left: -151px;
-	margin-bottom: -40px;
-	margin-top:7px;
+	margin-bottom: -70px;
+	margin-top:13px;
 }
 #triviatag {
     color: white;
     background-color: #68d6b3;
     position: absolute;
-    margin-left: -200px;
     padding: 4px;
-    margin-top: 101px;
-    margin-bottom: -29px;
+    margin-top: -56px;
     padding-left: 76px;
     padding-right: 77px;
     padding-top: 8px;
@@ -372,56 +407,59 @@ textarea {
   }
 #rpc {
 	margin-left:-151px;
-	margin-top:46px;
+	margin-top:84px;
 	margin-bottom: -13px;
+	position:absolute;
 }
 #rpctag {
     color: white;
     background-color: #68d6b3;
     position: absolute;
-    margin-left: -201px;
+    margin-left: 2px;
     padding: 4px;
-    margin-top: 106px;
-    margin-bottom: -29px;
-    padding-left: 23px;
-    padding-right: 23px;
+    margin-top: -51px;
+    padding-left: 21px;
+    padding-right: 21px;
     padding-top: 8px;
     padding-bottom: 8px;
     font-size: 19px;
   }
 #rpg {
-	margin-left: 231px;
+	margin-left: 104px;
 	margin-bottom: 277px;
-	margin-top: -438px;
+	margin-top: -263px;
+	position: absolute;
 }
 #rpgtag {
     color: white;
     background-color: #68d6b3;
     position: absolute;
-    margin-left: -160px;
+    margin-left: 0px;
     padding: 4px;
-    margin-top: 89px;
+    margin-top: -54px;
     margin-bottom: -61px;
-    padding-left: 46px;
-    padding-right: 45px;
-    padding-top: 5px;
-    padding-bottom: 5px;
+    padding-left: 59px;
+    padding-right: 59px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    font-size: 19px;
   }
  #widget{
-	margin-left: 231px;
-	margin-bottom: 185px;
-	margin-top: -253px;
+	margin-left: 97px;
+	margin-bottom: -62px;
+	margin-top: -87px;
+	position: absolute;
 }
 #widgettag {
     color: white;
     background-color: #68d6b3;
     position: absolute;
-    margin-left: -160px;
+    margin-left: 3px;
     padding: 4px;
-    margin-top: 89px;
-    margin-bottom: -61px;
-    padding-left: 57px;
-    padding-right: 57px;
-    padding-top: 5px;
-    padding-bottom: 5px;
+    margin-top: -57px;
+    padding-left: 73px;
+    padding-right: 73px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    font-size: 19px;
   }
