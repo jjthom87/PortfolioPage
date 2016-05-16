@@ -1,1 +1,3 @@
 # PortfolioPage
+
+I made this page as part of my first project in order to upload to heroku and connect it to the 2 other pages with my project. For the first project, i created 3 pages, and it wasnt part of the assignment to make them all live and connect them. I decided to go the extra step and try this out. It wasn't too difficult, and felt good to be able to click from one webpage to the next through the links on top. I am going to copy and paste this for my other page as well. 
